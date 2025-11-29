@@ -4,9 +4,10 @@
   "description": "Comprehensive architecture for creating programming language extensions on Kiro IDE with AI Agent integration",
   "version": "0.1.0",
   "publisher": "kiro",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kiro/project-extension-grammar"
+    "url": "https://github.com/intity01/project-extension-grammar"
   },
   "engines": {
     "vscode": "^1.80.0"

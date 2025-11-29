@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="128" height="128" rx="24" fill="#1a202c"/>
+  
+  <!-- Main icon: Stacked layers -->
+  <g transform="translate(32, 40)">
+    <!-- Layer 1 -->
+    <rect x="0" y="0" width="64" height="8" rx="4" fill="#9f7aea"/>
+    <!-- Layer 2 -->
+    <rect x="0" y="12" width="64" height="8" rx="4" fill="#667eea"/>
+    <!-- Layer 3 -->
+    <rect x="0" y="24" width="64" height="8" rx="4" fill="#4299e1"/>
+    <!-- Layer 4 -->
+    <rect x="0" y="36" width="64" height="8" rx="4" fill="#48bb78"/>
+  </g>
+  
+  <!-- PEG text -->
+  <text x="64" y="108" font-family="Arial, sans-serif" font-size="20" fill="#a0aec0" text-anchor="middle" font-weight="bold">PEG</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" rx="16" fill="#2D3748"/>
+  
+  <!-- Layers representation (5 layers) -->
+  <g transform="translate(24, 30)">
+    <!-- Layer 5 - Contextual (Top) -->
+    <rect x="0" y="0" width="80" height="12" rx="2" fill="#9F7AEA" opacity="0.9"/>
+    <text x="40" y="9" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">MCP</text>
+    
+    <!-- Layer 4 - Workflow -->
+    <rect x="0" y="16" width="80" height="12" rx="2" fill="#4299E1" opacity="0.9"/>
+    <text x="40" y="25" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Hooks</text>
+    
+    <!-- Layer 3 - Steering -->
+    <rect x="0" y="32" width="80" height="12" rx="2" fill="#48BB78" opacity="0.9"/>
+    <text x="40" y="41" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Rules</text>
+    
+    <!-- Layer 2 - Semantic -->
+    <rect x="0" y="48" width="80" height="12" rx="2" fill="#ED8936" opacity="0.9"/>
+    <text x="40" y="57" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">LSP</text>
+    
+    <!-- Layer 1 - Syntactic (Bottom) -->
+    <rect x="0" y="64" width="80" height="12" rx="2" fill="#F56565" opacity="0.9"/>
+    <text x="40" y="73" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Grammar</text>
+  </g>
+  
+  <!-- AI Symbol -->
+  <circle cx="96" cy="32" r="12" fill="#9F7AEA" opacity="0.3"/>
+  <text x="96" y="37" font-family="Arial, sans-serif" font-size="14" fill="#9F7AEA" text-anchor="middle" font-weight="bold">AI</text>
+  
+  <!-- Code brackets -->
+  <text x="20" y="110" font-family="monospace" font-size="24" fill="#68D391" font-weight="bold">&lt;/&gt;</text>
+  
+  <!-- Extension name -->
+  <text x="64" y="118" font-family="Arial, sans-serif" font-size="10" fill="#A0AEC0" text-anchor="middle" font-weight="bold">PEG</text>
+</svg>
