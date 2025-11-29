@@ -1,0 +1,13 @@
+{
+  "name": "Auto Test on Save",
+  "trigger": {
+    "type": "onSave",
+    "filePattern": "**/*.test.ts"
+  },
+  "action": {
+    "type": "prompt",
+    "prompt": "Run tests for this file and report results"
+  },
+  "enabled": true,
+  "preventRecursion": true
+}

@@ -1,0 +1,101 @@
+// Example Target Language File
+// This file demonstrates the syntax highlighting and features
+
+// Single line comment
+/* Multi-line comment
+   spanning multiple lines */
+
+// Variable declarations
+var globalVar = "Hello, World!";
+let mutableVar = 42;
+const CONSTANT_VALUE = 3.14159;
+
+// Function definition
+function calculateSum(a, b) {
+    // Local variable
+    let result = a + b;
+    return result;
+}
+
+// Class definition
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+    greet() {
+        print("Hello, my name is " + this.name);
+    }
+    
+    getAge() {
+        return this.age;
+    }
+}
+
+// Object creation
+let person = new Person("Alice", 30);
+person.greet();
+
+// Control structures
+if (person.age > 18) {
+    print("Adult");
+} else {
+    print("Minor");
+}
+
+// Loops
+for (let i = 0; i < 10; i++) {
+    print(i);
+}
+
+while (globalVar != null) {
+    print("Processing...");
+    break;
+}
+
+// Array operations
+let numbers = [1, 2, 3, 4, 5];
+let doubled = numbers.map(function(n) {
+    return n * 2;
+});
+
+// String operations
+let message = "Hello" + " " + "World";
+let template = `Value is ${CONSTANT_VALUE}`;
+
+// Error handling
+try {
+    let result = calculateSum(10, 20);
+    print(result);
+} catch (error) {
+    print("Error occurred: " + error);
+} finally {
+    print("Cleanup");
+}
+
+// Async operations
+async function fetchData() {
+    let data = await getData();
+    return data;
+}
+
+// Export/Import
+export function utilityFunction() {
+    return "Utility";
+}
+
+import { helper } from "./helper";
+
+// Type annotations (if supported)
+function typed(x: number, y: string): boolean {
+    return x > 0 && y.length > 0;
+}
+
+// Advanced features
+let lambda = (x) => x * 2;
+let destructure = { a: 1, b: 2 };
+let { a, b } = destructure;
+
+// End of example
+print("Example complete!");

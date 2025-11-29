@@ -1,0 +1,48 @@
+# Development files
+.vscode/**
+.vscode-test/**
+src/**
+test/**
+.gitignore
+.yarnrc
+vsc-extension-quickstart.md
+**/tsconfig.json
+**/.eslintrc.json
+**/*.map
+**/*.ts
+!out/**/*.js
+
+# Dependencies (will be bundled separately)
+node_modules/**
+
+# Spec files (not needed in distribution)
+.kiro/**
+
+# Build artifacts
+*.vsix
+coverage/**
+jest.config.js
+
+# Server development files (keep only compiled server if needed)
+server/node_modules/**
+server/src/**
+server/tsconfig.json
+server/package-lock.json
+
+# Documentation (keep README.md, exclude development docs)
+DEVELOPMENT.md
+RELEASE_CHECKLIST.md
+docs/**
+
+# Scripts (not needed in runtime)
+scripts/**
+
+# Keep these essential files:
+# - out/** (compiled JavaScript)
+# - assets/** (templates for steering and hooks)
+# - schemas/** (JSON schemas for validation)
+# - syntaxes/** (TextMate grammar)
+# - language-configuration.json
+# - package.json
+# - README.md
+# - LICENSE

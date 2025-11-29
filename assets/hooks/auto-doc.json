@@ -1,0 +1,13 @@
+{
+  "name": "Auto Documentation",
+  "trigger": {
+    "type": "onSave",
+    "filePattern": "**/*.ts"
+  },
+  "action": {
+    "type": "prompt",
+    "prompt": "Check if this file needs documentation updates and suggest improvements"
+  },
+  "enabled": false,
+  "preventRecursion": true
+}

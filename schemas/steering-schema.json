@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Steering File Frontmatter",
+  "type": "object",
+  "properties": {
+    "inclusion": {
+      "type": "string",
+      "enum": ["always", "fileMatch", "manual"],
+      "description": "When this steering file should be loaded"
+    },
+    "fileMatchPattern": {
+      "type": "string",
+      "description": "Glob pattern for files that should trigger loading (required when inclusion is fileMatch)"
+    },
+    "priority": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Loading priority (higher numbers load first)"
+    }
+  },
+  "required": ["inclusion"],
+  "if": {
+    "properties": {
+      "inclusion": {
+        "const": "fileMatch"
+      }
+    }
+  },
+  "then": {
+    "required": ["fileMatchPattern"]
+  }
+}
