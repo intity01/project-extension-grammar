@@ -1,6 +1,18 @@
 # Project Extension Grammar
 
+[![GitHub release](https://img.shields.io/github/v/release/intity01/project-extension-grammar)](https://github.com/intity01/project-extension-grammar/releases/latest)
+[![GitHub downloads](https://img.shields.io/github/downloads/intity01/project-extension-grammar/total)](https://github.com/intity01/project-extension-grammar/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/tests-260%20passing-brightgreen)](TESTING_GUIDE.md)
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.80%2B-blue)](https://code.visualstudio.com/)
+
 VS Code/Kiro IDE extension สำหรับเพิ่มการรองรับภาษาโปรแกรมมิ่ง พร้อมฟีเจอร์ AI ในตัว
+
+## 📥 ดาวน์โหลด
+
+**[⬇️ ดาวน์โหลด v0.1.0 (77.75 KB)](https://github.com/intity01/project-extension-grammar/releases/download/v0.1.0/project-extension-grammar-0.1.0.vsix)**
+
+หรือดูทุกเวอร์ชันที่ [Releases](https://github.com/intity01/project-extension-grammar/releases)
 
 ## คืออะไร?
 
@@ -12,13 +24,25 @@ VS Code/Kiro IDE extension สำหรับเพิ่มการรอง�
 - ✅ Go to definition (กระโดดไปที่คำจำกัดความ)
 - ✅ AI integration (ทำงานร่วมกับ AI ใน Kiro IDE)
 
-## ติดตั้ง
+## 📦 ติดตั้ง
 
-1. ดาวน์โหลด `project-extension-grammar-0.1.0.vsix`
+### วิธีที่ 1: ติดตั้งจาก VSIX (แนะนำ)
+
+1. **[⬇️ ดาวน์โหลด .vsix](https://github.com/intity01/project-extension-grammar/releases/latest)**
 2. เปิด VS Code หรือ Kiro IDE
 3. กด `Ctrl+Shift+X` → คลิก `...` → "Install from VSIX..."
 4. เลือกไฟล์ที่ดาวน์โหลด
 5. Reload window
+
+### วิธีที่ 2: ติดตั้งผ่าน Command Line
+
+```bash
+code --install-extension project-extension-grammar-0.1.0.vsix
+```
+
+### วิธีที่ 3: Drag & Drop
+
+ลากไฟล์ .vsix วางลงใน VS Code window
 
 ## ใช้งาน
 
@@ -170,4 +194,15 @@ MIT License - ดู [LICENSE](LICENSE) สำหรับรายละเอ�
 
 ---
 
+## 🔗 ลิงก์ที่เป็นประโยชน์
+
+- 📦 [Releases](https://github.com/intity01/project-extension-grammar/releases) - ดาวน์โหลดเวอร์ชันต่างๆ
+- 🐛 [Issues](https://github.com/intity01/project-extension-grammar/issues) - รายงานปัญหา
+- 📖 [Documentation](https://github.com/intity01/project-extension-grammar/tree/main/docs) - เอกสารทั้งหมด
+- 💬 [Discussions](https://github.com/intity01/project-extension-grammar/discussions) - ถาม-ตอบ
+
+---
+
 **Version**: 0.1.0 | **Status**: ✅ Production Ready | **Compatibility**: VS Code 1.80+, Kiro IDE
+
+**Made with ❤️ for Kiro IDE**
